@@ -1,7 +1,7 @@
 #!/bin/bash
 
 function startenv() {
-    ENVPATH=$"/home/$USER/envs/"
+    ENVPATH=$"/home/$USER/envs"
 
     if [ $1 == "--list" ]
         then
