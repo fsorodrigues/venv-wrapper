@@ -8,20 +8,20 @@ To do so, we have to make the bash function available to your environment.
 ##### First, create a file to hold custom tools 
 We'll call it `.bash_custom_tools`. The leading `.` makes it a hidden file, avoiding unintentional deletion.
 
-```
+```bash
 touch ~/.bash_custom_tools
 ```
 
 ##### Edit the file with a text editor
 I usually use `nano` for these tasks.
 
-```
+```bash
 nano ~/.bash_custom_tools
 ```
 
 Add the following line to your `.bash_custom_tools` file:
 
-```
+```bash
 source path/to/start-env.sh
 ```
 
@@ -30,7 +30,7 @@ Find your configuration file. It is should be located inside your home folder (`
 
 Open the file with a text editor. I´ll again use `nano` to add the following lines to the config file.
 
-```
+```bash
 if [ -f ~/.bash_custom_tools ]; then
     . ~/.bash_custom_tools
 fi
@@ -39,7 +39,7 @@ fi
 ##### Reload configuration
 Run the following command on your shell:
 
-```
+```bash
 source ~/.bashrc
 ```
 
