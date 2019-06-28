@@ -1,5 +1,5 @@
 # venv-wrapper
-Python virtual environment wrapper for bash
+A minimal virtual environment wrapper for Python.
 
 ## Adding script as a CLI tool
 
@@ -44,5 +44,3 @@ source ~/.bashrc
 ```
 
 This is needed to take effect immediately, but you can also close and reopen the shell the load the new tool.
-
-`
