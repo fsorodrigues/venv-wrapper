@@ -36,7 +36,7 @@ if [ -f ~/.bash_custom_tools ]; then
 fi
 ```
 
-###### Reload configuration
+##### Reload configuration
 Run the following command on your shell:
 
 ```
