@@ -10,4 +10,3 @@ function startenv() {
             . $ENVPATH/$1/bin/activate
     fi
 }
-
